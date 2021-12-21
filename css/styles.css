@@ -11360,6 +11360,10 @@ textarea.form-control-lg {
   font-size: 1.25em;
 }
 
+.emphasis {
+  color: #17a398;
+  font-weight: 700;
+}
 .appBadge {
   width: 85%;
 }
