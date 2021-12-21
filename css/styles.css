@@ -11354,6 +11354,10 @@ textarea.form-control-lg {
 #about p {
   font-size: 1.15em;
 }
+
+.productImg {
+  width: 75%;
+}
 .introParagraph {
   color: #662C91;
   font-weight: 700;
