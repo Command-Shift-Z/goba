@@ -655,6 +655,10 @@ progress {
   margin-left: auto;
 }
 
+.logoMobile {
+  display: none;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -669,6 +673,8 @@ progress {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+
+  
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -2157,7 +2163,20 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .navLogo {
+    display: none;
+  }
+
+  .logoMobile {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .imgMobile {
+    width: 75%;
+  }
 }
+
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
     overflow-x: auto;
@@ -11330,4 +11349,17 @@ textarea.form-control-lg {
 
 .heroImg {
   width: 50%;
+}
+
+#about p {
+  font-size: 1.15em;
+}
+.introParagraph {
+  color: #662C91;
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+.appBadge {
+  width: 85%;
 }
